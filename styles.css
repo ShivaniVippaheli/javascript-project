@@ -1,0 +1,83 @@
+/*universal selector */
+*{
+    box-sizing: border-box;
+}
+/*type selector */
+p{
+    font-size: 16px;
+    color: orange;
+}
+/*class selector */
+.form-group{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.lists{
+    list-style-type: none;
+    padding: 0;
+}
+/*id selector*/
+#unique{
+    font-size: large;
+    font-style: italic;
+}
+/*Attribute selector */
+input[type="text"]{
+    border: 2px solid black !important;
+}
+input[type="checkbox"]{
+    border: 4px solid black !important;
+}
+/* pseudo-class  selector*/
+a:hover{
+    color:red;
+    text-decoration: dashed;
+}
+/* pseudo-element selector*/
+p::first-line{
+    font-weight: bold;
+    font-display:line-height; 
+}
+/* combinator selectors*/
+/* descendant selector*/
+div p{
+    color:blueviolet;
+    font-size: 20px;
+}
+/* child selector*/
+div>p{
+    color-scheme:blueviolet;
+    font-size: 50px;
+}
+/*adjacent sibling selector*/
+h1+p{
+    color: #000;
+    font: 1em sans-serif;
+}
+/*general sibling selector*/
+h1~p{
+    color:aqua;
+}
+/*grouping selector*/
+h1,h2,h3{
+    color:chartreuse;
+}
+/* box model*/
+.container{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 10px auto;
+}
+.box{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    top:200px;
+    right: 300px;
+    bottom: 400px;
+    left:500px;
+    font-size: larger;
+    background-color:bisque
+}
