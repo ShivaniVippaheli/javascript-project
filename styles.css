@@ -79,5 +79,6 @@ h1,h2,h3{
     bottom: 400px;
     left:500px;
     font-size: larger;
-    background-color:bisque
+    background-color:bisque;
+    border:2cm;
 }
